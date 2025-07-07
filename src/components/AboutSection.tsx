@@ -6,22 +6,22 @@ const AboutSection = () => {
     {
       icon: Users,
       title: "Solidarité",
-      description: "Une communauté unie qui se soutient mutuellement dans tous les défis de la vie étudiante."
+      description: "Créer des liens de solidarité entre tous les ressortissants d'Agnibilékrou."
     },
     {
       icon: Heart,
-      title: "Entraide",
-      description: "L'accompagnement académique et social pour réussir ses études et s'épanouir personnellement."
+      title: "Réseau d'entraide",
+      description: "Un réseau d'entraide intellectuel, social et professionnel pour tous."
     },
     {
       icon: GraduationCap,
-      title: "Excellence",
-      description: "Promouvoir la réussite académique et encourager l'excellence dans tous les domaines d'études."
+      title: "Sensibilisation",
+      description: "Organiser des événements de sensibilisation pour la jeunesse."
     },
     {
       icon: MapPin,
-      title: "Intégration",
-      description: "Faciliter l'adaptation dans les villes universitaires grâce à un réseau bienveillant."
+      title: "Développement local",
+      description: "Contribuer au développement d'Agnibilékrou par le bénévolat."
     }
   ];
 
@@ -35,8 +35,9 @@ const AboutSection = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Le CEERA (Collectif des Élèves et Étudiants Ressortissants d'Agnibilékrou) 
-            est une association dynamique qui unit les jeunes d'Agnibilékrou à travers 
-            la solidarité, l'entraide et l'accompagnement dans leur parcours académique.
+            est une association apolitique, laïque et à but non lucratif, créée officiellement 
+            le 3 février 2023 par récépissé N°195/P-AGNI/CAB. Notre mission : promouvoir 
+            la solidarité et le développement de nos ressortissants.
           </p>
         </div>
 
@@ -52,13 +53,13 @@ const AboutSection = () => {
           
           <div className="space-y-6 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <h3 className="text-3xl font-bold text-foreground">
-              Une famille étudiante depuis plus de 15 ans
+              Association officielle depuis février 2023
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Depuis sa création, le CEERA rassemble les élèves et étudiants originaires 
-              d'Agnibilékrou pour créer un environnement familial et bienveillant. 
-              Notre mission est de faciliter l'intégration, promouvoir l'excellence 
-              académique et maintenir les liens avec notre terre natale.
+              Le CEERA œuvre pour le bien-être des élèves et étudiants d'Agnibilékrou, 
+              où qu'ils poursuivent leurs études. En tant qu'association apolitique, 
+              laïque et à but non lucratif, nous créons un environnement favorable 
+              à l'épanouissement de tous nos membres.
             </p>
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-gradient-primary/10 p-4 rounded-2xl">

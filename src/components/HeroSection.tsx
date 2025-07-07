@@ -33,7 +33,8 @@ const HeroSection = () => {
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Votre réussite au baccalauréat marque le début d'une nouvelle aventure ! 
-            Le CEERA est là pour vous accompagner dans cette étape importante.
+            Le CEERA, association officielle créée en 2023, est là pour vous accompagner 
+            dans cette étape importante de votre parcours étudiant.
           </p>
         </div>
 

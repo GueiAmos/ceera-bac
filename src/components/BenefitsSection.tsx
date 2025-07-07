@@ -5,38 +5,38 @@ const BenefitsSection = () => {
   const benefits = [
     {
       icon: Users2,
-      title: "Intégration facilitée",
-      description: "Accueil chaleureux dans toutes les villes universitaires grâce à notre réseau de membres actifs.",
+      title: "Réseau d'entraide professionnel",
+      description: "Bénéficiez d'un réseau d'entraide intellectuel, social et professionnel pour votre développement.",
       color: "primary"
     },
     {
       icon: HandHeart,
-      title: "Entraide permanente",
-      description: "Soutien académique, aide au logement, partage de ressources et accompagnement personnalisé.",
+      title: "Actions sociales",
+      description: "Participez aux actions sociales, économiques et culturelles pour le développement communautaire.",
       color: "secondary"
     },
     {
       icon: Sparkles,
-      title: "Ambiance familiale",
-      description: "Retrouvez l'esprit de famille d'Agnibilékrou partout où vous étudiez.",
+      title: "Accompagnement personnalisé",
+      description: "Recevez appui et conseils pour vos projets personnels et professionnels.",
       color: "accent"
     },
     {
       icon: Calendar,
-      title: "Activités enrichissantes",
-      description: "Événements culturels, compétitions sportives, sorties éducatives et moments de convivialité.",
+      title: "Événements culturels",
+      description: "Participez à nos événements culturels et journées de sensibilisation pour la jeunesse.",
       color: "primary"
     },
     {
       icon: Trophy,
-      title: "Excellence récompensée",
-      description: "Programme de bourses d'excellence et reconnaissance des meilleurs parcours académiques.",
+      title: "Programmes de mentorat",
+      description: "Bénéficiez de nos programmes de soutien scolaire et de mentorat académique.",
       color: "secondary"
     },
     {
       icon: CheckCircle,
-      title: "Réseau professionnel",
-      description: "Connectez-vous avec des anciens étudiants et construisez votre réseau professionnel.",
+      title: "Adhésion accessible",
+      description: "Rejoignez-nous pour seulement 1000 FCFA et accédez à tous nos services.",
       color: "accent"
     }
   ];
@@ -100,17 +100,17 @@ const BenefitsSection = () => {
             Prêt à rejoindre notre communauté ? 🎯
           </h3>
           <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Plus de 500 étudiants nous font déjà confiance. 
-            Rejoignez-nous dès aujourd'hui et bénéficiez de tous ces avantages !
+            Association officielle depuis 2023, nous accompagnons déjà de nombreux étudiants. 
+            Rejoignez-nous pour seulement 1000 FCFA et bénéficiez de tous ces avantages !
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
             <span className="flex items-center gap-2">
               <CheckCircle className="h-4 w-4 text-success" />
-              Inscription gratuite
+              Cotisation : 1000 FCFA
             </span>
             <span className="flex items-center gap-2">
               <CheckCircle className="h-4 w-4 text-success" />
-              Accès immédiat
+              Association officielle
             </span>
             <span className="flex items-center gap-2">
               <CheckCircle className="h-4 w-4 text-success" />

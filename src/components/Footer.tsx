@@ -23,8 +23,9 @@ const Footer = () => {
             🎓 Ton aventure étudiante commence ici !
           </h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Rejoins dès maintenant la plus grande famille d'étudiants d'Agnibilékrou 
-            et bénéficie d'un accompagnement personnalisé tout au long de tes études.
+            Rejoins dès maintenant la famille officielle des étudiants d'Agnibilékrou ! 
+            Association apolitique, laïque et à but non lucratif créée en 2023. 
+            Cotisation : seulement 1000 FCFA.
           </p>
           <Button 
             size="lg" 
@@ -76,15 +77,15 @@ const Footer = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-8 text-sm opacity-80">
             <div>
               <h4 className="font-semibold mb-2">🎯 Notre Mission</h4>
-              <p>Accompagner et unir les étudiants d'Agnibilékrou pour leur réussite académique et sociale.</p>
+              <p>Promouvoir la solidarité et le développement de nos ressortissants d'Agnibilékrou.</p>
             </div>
             <div>
-              <h4 className="font-semibold mb-2">📍 Présence</h4>
-              <p>Plus de 10 villes universitaires à travers la Côte d'Ivoire et l'étranger.</p>
+              <h4 className="font-semibold mb-2">📅 Création</h4>
+              <p>Association officielle créée le 3 février 2023 (Récépissé N°195/P-AGNI/CAB).</p>
             </div>
             <div>
-              <h4 className="font-semibold mb-2">👥 Communauté</h4>
-              <p>Plus de 500 membres actifs et anciens étudiants dans notre réseau.</p>
+              <h4 className="font-semibold mb-2">💰 Adhésion</h4>
+              <p>Rejoignez-nous pour seulement 1000 FCFA et bénéficiez de tous nos services.</p>
             </div>
           </div>
           <p className="text-sm opacity-70">
