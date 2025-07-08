@@ -93,7 +93,7 @@ const Footer = () => {
           <div className="text-center">
             <h3 className="text-xl font-bold mb-2">CEERA</h3>
             <p className="text-sm opacity-80 mb-4">
-              Collectif des Élèves, Étudiants et Ressortissants d'Agnibilékrou
+              Collectif des Élèves et Étudiants et Ressortissants d'Agnibilékrou
             </p>
             <p className="text-xs opacity-60">
               © 2024 CEERA - Tous droits réservés
