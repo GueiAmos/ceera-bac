@@ -76,7 +76,7 @@ const AboutSection = () => {
               <div className="bg-secondary/5 border border-secondary/20 p-4 rounded-xl">
                 <h4 className="font-semibold text-secondary mb-2">Nos Valeurs</h4>
                 <p className="text-sm text-muted-foreground">
-                  Solidarité, Excellence, Inclusion et Engagement.
+                  Solidarité, Excellence, Engagement.
                 </p>
               </div>
             </div>
