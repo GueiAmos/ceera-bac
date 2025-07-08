@@ -52,7 +52,7 @@ const AboutSection = () => {
           
           <div className="order-1 lg:order-2 space-y-6">
             <h3 className="text-2xl lg:text-3xl font-bold text-foreground">
-              Association officielle depuis février 2023
+              Notre histoire
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Le CEERA œuvre pour le bien-être et l'épanouissement des élèves et étudiants d'Agnibilékrou, 
