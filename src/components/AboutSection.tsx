@@ -34,7 +34,7 @@ const AboutSection = () => {
             Qui sommes-nous ?
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Le CEERA (Collectif des Élèves et Étudiants Ressortissants d'Agnibilékrou) 
+            Le CEERA (Collectif des Élèves, Étudiants et Ressortissants d'Agnibilékrou) 
             est une association apolitique, laïque et à but non lucratif, créée officiellement 
             le 3 février 2023.
           </p>
@@ -46,7 +46,7 @@ const AboutSection = () => {
             <img 
               src={ceeraLogo} 
               alt="Logo officiel du CEERA"
-              className="w-full h-[300px] lg:h-[400px] object-contain rounded-2xl shadow-lg bg-white p-8"
+              className="w-full h-[300px] lg:h-[400px] object-cover rounded-2xl shadow-lg"
             />
           </div>
           
