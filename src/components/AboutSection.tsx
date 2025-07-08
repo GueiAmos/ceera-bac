@@ -26,33 +26,32 @@ const AboutSection = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-background">
-      <div className="container mx-auto px-6">
+    <section id="about" className="py-16 lg:py-24 bg-background">
+      <div className="container mx-auto px-6 lg:px-12">
         {/* Section Header */}
-        <div className="text-center mb-16 animate-fade-in-up">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-secondary bg-clip-text text-transparent">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl lg:text-5xl font-bold mb-6 text-foreground">
             Qui sommes-nous ?
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Le CEERA (Collectif des Élèves et Étudiants Ressortissants d'Agnibilékrou) 
             est une association apolitique, laïque et à but non lucratif, créée officiellement 
-            le 3 février 2023 par récépissé N°195/P-AGNI/CAB. Notre mission : promouvoir 
-            la solidarité et le développement de nos ressortissants.
+            le 3 février 2023.
           </p>
         </div>
 
-        {/* Main content with image */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-          <div className="animate-fade-in-up">
+        {/* Main content */}
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-16">
+          <div className="order-2 lg:order-1">
             <img 
               src={communityImage} 
               alt="Communauté CEERA"
-              className="w-full h-[400px] object-cover rounded-3xl shadow-lg"
+              className="w-full h-[300px] lg:h-[400px] object-cover rounded-2xl shadow-lg"
             />
           </div>
           
-          <div className="space-y-6 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            <h3 className="text-3xl font-bold text-foreground">
+          <div className="order-1 lg:order-2 space-y-6">
+            <h3 className="text-2xl lg:text-3xl font-bold text-foreground">
               Association officielle depuis février 2023
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
@@ -61,14 +60,14 @@ const AboutSection = () => {
               laïque et à but non lucratif, nous créons un environnement favorable 
               à l'épanouissement de tous nos membres.
             </p>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-gradient-primary/10 p-4 rounded-2xl">
+            <div className="grid grid-cols-1 gap-4">
+              <div className="bg-primary/5 border border-primary/20 p-4 rounded-xl">
                 <h4 className="font-semibold text-primary mb-2">Notre Vision</h4>
                 <p className="text-sm text-muted-foreground">
                   Être une référence en matière d'accompagnement étudiant et de promotion de l'excellence.
                 </p>
               </div>
-              <div className="bg-gradient-secondary/10 p-4 rounded-2xl">
+              <div className="bg-secondary/5 border border-secondary/20 p-4 rounded-xl">
                 <h4 className="font-semibold text-secondary mb-2">Notre Mission</h4>
                 <p className="text-sm text-muted-foreground">
                   Créer un réseau solide d'entraide pour la réussite de tous nos membres.
@@ -79,20 +78,19 @@ const AboutSection = () => {
         </div>
 
         {/* Features Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="group p-6 bg-white rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 animate-scale-in"
-              style={{ animationDelay: `${0.1 * index}s` }}
+              className="group p-6 bg-white border border-gray-100 rounded-2xl hover:shadow-lg transition-all duration-300"
             >
-              <div className="w-16 h-16 bg-gradient-primary rounded-2xl flex items-center justify-center mb-4 group-hover:shadow-warm transition-all duration-300">
-                <feature.icon className="h-8 w-8 text-white" />
+              <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors duration-300">
+                <feature.icon className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold text-foreground mb-3">
+              <h3 className="text-lg font-semibold text-foreground mb-3">
                 {feature.title}
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground text-sm leading-relaxed">
                 {feature.description}
               </p>
             </div>
