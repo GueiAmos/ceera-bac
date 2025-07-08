@@ -3,7 +3,7 @@ import { Facebook, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/group_invite_link_here", "_blank");
+    window.open("https://chat.whatsapp.com/GAzhT7xlSVvIS0ndMUxdzp?mode=r_c", "_blank");
   };
 
   const handleFacebookClick = () => {
@@ -23,9 +23,8 @@ const Footer = () => {
             🎓 Ton aventure étudiante commence ici !
           </h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Rejoins dès maintenant la famille officielle des étudiants d'Agnibilékrou ! 
-            Association apolitique, laïque et à but non lucratif créée en 2023. 
-            Cotisation : seulement 1000 FCFA.
+            Rejoins dès maintenant la famille officielle des élèves et étudiants d'Agnibilékrou ! 
+            Association apolitique, laïque et à but non lucratif créée officiellement en 2023.
           </p>
           <Button 
             size="lg" 
@@ -84,8 +83,8 @@ const Footer = () => {
               <p>Association officielle créée le 3 février 2023 (Récépissé N°195/P-AGNI/CAB).</p>
             </div>
             <div>
-              <h4 className="font-semibold mb-2">💰 Adhésion</h4>
-              <p>Rejoignez-nous pour seulement 1000 FCFA et bénéficiez de tous nos services.</p>
+              <h4 className="font-semibold mb-2">🤝 Communauté</h4>
+              <p>Rejoignez une communauté de plus de 150 élèves et étudiants solidaires.</p>
             </div>
           </div>
           <p className="text-sm opacity-70">

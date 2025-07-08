@@ -35,8 +35,8 @@ const BenefitsSection = () => {
     },
     {
       icon: CheckCircle,
-      title: "Adhésion accessible",
-      description: "Rejoignez-nous pour seulement 1000 FCFA et accédez à tous nos services.",
+      title: "Adhésion simple",
+      description: "Rejoignez facilement notre communauté de plus de 150 membres solidaires.",
       color: "accent"
     }
   ];
@@ -100,13 +100,13 @@ const BenefitsSection = () => {
             Prêt à rejoindre notre communauté ? 🎯
           </h3>
           <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Association officielle depuis 2023, nous accompagnons déjà de nombreux étudiants. 
-            Rejoignez-nous pour seulement 1000 FCFA et bénéficiez de tous ces avantages !
+            Association officielle depuis 2023, nous accompagnons déjà plus de 150 élèves et étudiants. 
+            Rejoignez notre communauté solidaire et bénéficiez de tous ces avantages !
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
             <span className="flex items-center gap-2">
               <CheckCircle className="h-4 w-4 text-success" />
-              Cotisation : 1000 FCFA
+              Plus de 150 membres
             </span>
             <span className="flex items-center gap-2">
               <CheckCircle className="h-4 w-4 text-success" />

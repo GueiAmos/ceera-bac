@@ -1,10 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
 import heroImage from "@/assets/hero-celebration.jpg";
+import ceeraLogo from "@/assets/ceera-logo.png";
 
 const HeroSection = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/group_invite_link_here", "_blank");
+    window.open("https://chat.whatsapp.com/GAzhT7xlSVvIS0ndMUxdzp?mode=r_c", "_blank");
   };
 
   return (
@@ -23,13 +24,22 @@ const HeroSection = () => {
       </div>
 
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+        {/* CEERA Logo */}
+        <div className="animate-fade-in-up mb-8">
+          <img 
+            src={ceeraLogo} 
+            alt="Logo CEERA"
+            className="w-32 h-32 mx-auto mb-6"
+          />
+        </div>
+
         {/* Main heading */}
         <div className="animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
             🎉 FÉLICITATIONS ! 🎉
           </h1>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-4">
-            Nouveaux Bacheliers 2024
+            Nouveaux Bacheliers 2025
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Votre réussite au baccalauréat marque le début d'une nouvelle aventure ! 
@@ -60,18 +70,14 @@ const HeroSection = () => {
         </div>
 
         {/* Quick stats */}
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-warm">
-            <div className="text-3xl font-bold text-primary mb-2">500+</div>
-            <div className="text-sm text-muted-foreground">Étudiants membres</div>
+            <div className="text-3xl font-bold text-primary mb-2">150+</div>
+            <div className="text-sm text-muted-foreground">Élèves et étudiants membres</div>
           </div>
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-success">
-            <div className="text-3xl font-bold text-secondary mb-2">15+</div>
-            <div className="text-sm text-muted-foreground">Années d'existence</div>
-          </div>
-          <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-accent">
-            <div className="text-3xl font-bold text-accent mb-2">10+</div>
-            <div className="text-sm text-muted-foreground">Villes universitaires</div>
+            <div className="text-3xl font-bold text-secondary mb-2">2</div>
+            <div className="text-sm text-muted-foreground">Années d'existence officielle</div>
           </div>
         </div>
       </div>
