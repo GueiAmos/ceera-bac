@@ -96,7 +96,7 @@ const Footer = () => {
               Collectif des Élèves et Étudiants et Ressortissants d'Agnibilékrou
             </p>
             <p className="text-xs opacity-60">
-              © 2024 CEERA - Tous droits réservés
+              © 2025 CEERA - Tous droits réservés
             </p>
           </div>
         </div>
