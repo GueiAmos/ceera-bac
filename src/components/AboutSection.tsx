@@ -1,5 +1,5 @@
 import { Users, Heart, GraduationCap, MapPin } from "lucide-react";
-import communityImage from "@/assets/community-solidarity.jpg";
+import ceeraLogo from "@/assets/496094715_668895912520256_6015292786784474806_n.jpg";
 
 const AboutSection = () => {
   const features = [
@@ -44,9 +44,9 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-16">
           <div className="order-2 lg:order-1">
             <img 
-              src={communityImage} 
-              alt="Communauté CEERA"
-              className="w-full h-[300px] lg:h-[400px] object-cover rounded-2xl shadow-lg"
+              src={ceeraLogo} 
+              alt="Logo officiel du CEERA"
+              className="w-full h-[300px] lg:h-[400px] object-contain rounded-2xl shadow-lg bg-white p-8"
             />
           </div>
           
