@@ -7,11 +7,11 @@ const Footer = () => {
   };
 
   const handleFacebookClick = () => {
-    window.open("https://facebook.com/ceera.official", "_blank");
+    window.open("https://facebook.com/CEERA.Collectif des Élèves et Étudiants Ressortissants d’Agnibilekrou", "_blank");
   };
 
   const handleTikTokClick = () => {
-    window.open("https://tiktok.com/@ceera.official", "_blank");
+    window.open("https://tiktok.com/@ceera.life", "_blank");
   };
 
   return (
