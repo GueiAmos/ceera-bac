@@ -74,7 +74,7 @@ const AboutSection = () => {
                 </p>
               </div>
               <div className="bg-secondary/5 border border-secondary/20 p-4 rounded-xl">
-                <h4 className="font-semibold text-secondary mb-2">Notre Mission</h4>
+                <h4 className="font-semibold text-secondary mb-2">Nos Valeurs</h4>
                 <p className="text-sm text-muted-foreground">
                   Créer un réseau solide d'entraide pour la réussite de tous nos membres.
                 </p>
