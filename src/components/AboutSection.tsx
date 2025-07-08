@@ -60,7 +60,8 @@ const AboutSection = () => {
             <p className="text-lg text-muted-foreground leading-relaxed">
               Officialisé par récépissé de déclaration d'association N⁰195/P-AGNI/CAB le 03 février 2023, tel que régi par la loi N⁰60-315 du 21 septembre 1960 relative aux associations, le CEERA s'est donné comme mission principale de rassembler les élèves et étudiants ressortissants d'Agnibilékrou.
 
-Après le baccalauréat, les étudiants sont orientés dans diverses universités, grandes écoles et villes. Pour maintenir les liens entre les ressortissants malgré cette dispersion géographique, le CEERA a été créé comme un point de ralliement et une structure d'entraide.
+
+              Après le baccalauréat, les étudiants sont orientés dans diverses universités, grandes écoles et villes. Pour maintenir les liens entre les ressortissants malgré cette dispersion géographique, le CEERA a été créé comme un point de ralliement et une structure d'entraide.
 
 Aujourd'hui, le CEERA fonctionne sur la base d'un statut et d'un règlement intérieur et est reconnu par les autorités politiques, témoignant du sérieux qui règne au sein de ce collectif.
             </p>
