@@ -8,6 +8,12 @@ const HeroSection = () => {
     window.open("https://chat.whatsapp.com/GAzhT7xlSVvIS0ndMUxdzp?mode=r_c", "_blank");
   };
 
+  const scrollToAbout = () => {
+    const aboutSection = document.getElementById('about');
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <section className="relative min-h-screen bg-gradient-warm overflow-hidden">
       {/* Background Image */}
@@ -32,11 +38,10 @@ const HeroSection = () => {
         <Button 
           variant="outline" 
           size="sm"
-          onClick={handleWhatsAppClick}
+          onClick={scrollToAbout}
           className="border-primary text-primary hover:bg-primary hover:text-white"
         >
-          <MessageCircle className="mr-2 h-4 w-4" />
-          Rejoindre
+          En savoir plus
         </Button>
       </nav>
 
