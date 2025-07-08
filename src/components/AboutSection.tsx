@@ -68,7 +68,7 @@ const AboutSection = () => {
             </p>
             <div className="grid grid-cols-1 gap-4">
               <div className="bg-primary/5 border border-primary/20 p-4 rounded-xl">
-                <h4 className="font-semibold text-primary mb-2">Notre Vision</h4>
+                <h4 className="font-semibold text-primary mb-2">Notre Mission</h4>
                 <p className="text-sm text-muted-foreground">
                   Promouvoir la solidarité, l'excellence académique et le développement culturel et social.
                 </p>
