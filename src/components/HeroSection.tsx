@@ -26,7 +26,7 @@ const HeroSection = () => {
           />
           <div className="hidden sm:block">
             <h3 className="text-lg lg:text-xl font-bold text-foreground">CEERA</h3>
-            <p className="text-sm text-muted-foreground">Collectif des Élèves, Étudiants et Ressortissants</p>
+            <p className="text-sm text-muted-foreground">Collectif des Élèves et Étudiants et Ressortissants d'Agnibilékrou</p>
           </div>
         </div>
         <Button 
