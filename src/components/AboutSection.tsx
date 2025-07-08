@@ -36,7 +36,7 @@ const AboutSection = () => {
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Le CEERA (Collectif des Élèves et Étudiants Ressortissants d'Agnibilékrou) 
             est une association apolitique, laïque et à but non lucratif, créée officiellement 
-            le 3 février 2023 et dédiée au bien-être et à l'épanouissement des élèves et étudiants de notre région.
+            le 3 février 2023.
           </p>
         </div>
 
@@ -55,7 +55,7 @@ const AboutSection = () => {
               Association officielle depuis février 2023
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Le CEERA œuvre pour le bien-être des élèves et étudiants d'Agnibilékrou, 
+              Le CEERA œuvre pour le bien-être et l'épanouissement des élèves et étudiants d'Agnibilékrou, 
               où qu'ils poursuivent leurs études. En tant qu'association apolitique, 
               laïque et à but non lucratif, nous créons un environnement favorable 
               à l'épanouissement de tous nos membres.
