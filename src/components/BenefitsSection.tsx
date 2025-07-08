@@ -1,37 +1,52 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, Users2, HandHeart, Sparkles, Calendar, Trophy } from "lucide-react";
+import { CheckCircle, Users2, HandHeart, Sparkles, Calendar, Trophy, GraduationCap } from "lucide-react";
 
 const BenefitsSection = () => {
   const benefits = [
     {
       icon: Users2,
-      title: "Réseau d'entraide professionnel",
-      description: "Bénéficiez d'un réseau d'entraide intellectuel, social et professionnel pour votre développement.",
+      title: "Réseau d'étudiants solidaires",
+      description: "Intègre un réseau d'étudiants solidaires et motivés partageant tes ambitions.",
     },
     {
       icon: HandHeart,
-      title: "Actions sociales",
-      description: "Participez aux actions sociales, économiques et culturelles pour le développement communautaire.",
-    },
-    {
-      icon: Sparkles,
-      title: "Accompagnement personnalisé",
-      description: "Recevez appui et conseils pour vos projets personnels et professionnels.",
+      title: "Soutien en cas de difficultés",
+      description: "Reçois du soutien en cas de coup dur (deuil, maladie...) grâce à notre solidarité.",
     },
     {
       icon: Calendar,
-      title: "Événements culturels",
-      description: "Participez à nos événements culturels et journées de sensibilisation pour la jeunesse.",
+      title: "Activités extra-scolaires",
+      description: "Participe à des activités extra-scolaires variées (sorties, loisirs, événements...).",
+    },
+    {
+      icon: GraduationCap,
+      title: "Conseils d'orientation",
+      description: "Bénéficie de conseils pour ton orientation et tes choix d'études supérieures.",
     },
     {
       icon: Trophy,
-      title: "Programmes de mentorat",
-      description: "Bénéficiez de nos programmes de soutien scolaire et de mentorat académique.",
+      title: "Opportunités académiques",
+      description: "Reste informé sur les concours, bourses et opportunités académiques disponibles.",
+    },
+    {
+      icon: Sparkles,
+      title: "Emploi et stages",
+      description: "Trouve des petits boulots, stages ou offres d'emploi grâce à notre réseau.",
     },
     {
       icon: CheckCircle,
-      title: "Adhésion simple",
-      description: "Rejoignez facilement notre communauté de plus de 150 membres solidaires.",
+      title: "Aide aux projets personnels",
+      description: "Reçois de l'aide pour tes projets et initiatives personnelles innovantes.",
+    },
+    {
+      icon: Users2,
+      title: "Ressources et documents",
+      description: "Accède facilement à des documents et ressources utiles pour tes études.",
+    },
+    {
+      icon: Sparkles,
+      title: "Ateliers et formations",
+      description: "Profite d'ateliers et de formations pratiques (informatique, langues, etc.).",
     }
   ];
 
@@ -41,16 +56,16 @@ const BenefitsSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-5xl font-bold mb-6 text-foreground">
-            Pourquoi rejoindre le CEERA ?
+            Pourquoi rejoindre le CEERA après ton BAC ?
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Découvrez tous les avantages qui vous attendent en devenant membre 
-            de notre grande famille !
+            En tant que nouveau bachelier, découvre tous les avantages concrets 
+            qui t'attendent pour réussir tes études supérieures !
           </p>
         </div>
 
         {/* Benefits Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {benefits.map((benefit, index) => (
             <Card 
               key={index}
@@ -74,24 +89,28 @@ const BenefitsSection = () => {
         {/* Call-to-action section */}
         <div className="bg-white rounded-3xl p-8 lg:p-12 text-center shadow-lg border border-gray-100">
           <h3 className="text-2xl lg:text-3xl font-bold text-foreground mb-4">
-            Prêt à rejoindre notre communauté ?
+            Prêt à commencer ton parcours étudiant avec nous ?
           </h3>
           <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Association officielle depuis 2023, nous accompagnons déjà plus de 150 élèves et étudiants. 
-            Rejoignez notre communauté solidaire et bénéficiez de tous ces avantages !
+            Plus de 150 étudiants nous font déjà confiance. Rejoins notre communauté 
+            et profite de tous ces avantages dès maintenant !
           </p>
           <div className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">
             <span className="flex items-center gap-2">
               <CheckCircle className="h-4 w-4 text-success" />
-              Plus de 150 membres
+              Soutien personnalisé
             </span>
             <span className="flex items-center gap-2">
               <CheckCircle className="h-4 w-4 text-success" />
-              Association officielle
+              Réseau professionnel
             </span>
             <span className="flex items-center gap-2">
               <CheckCircle className="h-4 w-4 text-success" />
-              Accompagnement personnalisé
+              Opportunités d'emploi
+            </span>
+            <span className="flex items-center gap-2">
+              <CheckCircle className="h-4 w-4 text-success" />
+              Formations gratuites
             </span>
           </div>
         </div>
