@@ -1,5 +1,5 @@
 import { Users, Heart, GraduationCap, MapPin } from "lucide-react";
-import ceeraLogo from "@/assets/496094715_668895912520256_6015292786784474806_n.jpg";
+import ceeraLogo from "@/assets/ceera-logo.png";
 
 const AboutSection = () => {
   const features = [
