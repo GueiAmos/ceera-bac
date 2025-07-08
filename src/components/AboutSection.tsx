@@ -70,7 +70,7 @@ const AboutSection = () => {
               <div className="bg-primary/5 border border-primary/20 p-4 rounded-xl">
                 <h4 className="font-semibold text-primary mb-2">Notre Vision</h4>
                 <p className="text-sm text-muted-foreground">
-                  Être une référence en matière d'accompagnement étudiant et de promotion de l'excellence.
+                  Promouvoir la solidarité, l'excellence académique et le développement culturel et social.
                 </p>
               </div>
               <div className="bg-secondary/5 border border-secondary/20 p-4 rounded-xl">
@@ -84,7 +84,7 @@ const AboutSection = () => {
         </div>
 
         {/* Features Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, index) => (
             <div 
               key={index}
@@ -101,7 +101,7 @@ const AboutSection = () => {
               </p>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
