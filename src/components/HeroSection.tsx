@@ -83,7 +83,7 @@ const HeroSection = () => {
             </div>
             <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-success">
               <div className="text-2xl lg:text-3xl font-bold text-secondary mb-2">2+</div>
-              <div className="text-sm text-muted-foreground">années d'existence</div>
+              <div className="text-sm text-muted-foreground">Années d'existence</div>
             </div>
           </div>
         </div>
